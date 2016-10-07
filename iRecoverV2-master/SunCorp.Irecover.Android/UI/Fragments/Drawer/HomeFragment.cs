@@ -14,9 +14,6 @@ namespace SunCorp.Irecover.Android.UI.Fragments.Drawer
 	[Register("suncorp.irecover.android.ui.fragments.drawer.HomeFragment")]
 	public class HomeFragment : BaseFragment<HomeViewModel>
 	{
-		public MvxFragmentPagerAdapter mAdapter;
-		public ViewPager mViewPager;
-
 		protected override int FragmentId
 		{
 			get { return Resource.Layout.activity_main; }
@@ -24,7 +21,7 @@ namespace SunCorp.Irecover.Android.UI.Fragments.Drawer
 
 		public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 		{
-			View rootView = base.OnCreateView(inflater, container, savedInstanceState);
+			var rootView = base.OnCreateView(inflater, container, savedInstanceState);
             SetTitle(GetString(Resource.String.app_name), rootView);
             
 			return rootView;
@@ -33,6 +30,7 @@ namespace SunCorp.Irecover.Android.UI.Fragments.Drawer
 		private void SetTitle(string title, View rootView)
 		{
 			var titleView = rootView.FindViewById<TextView>(Resource.Id.toolbar_title);
+            titleView.SetAllCaps(false);
 			titleView.Text = title;
 		}
 	}

@@ -11,6 +11,8 @@
   <dimen name="navigation_drawer_width">290dp</dimen>
 
   <dimen name="view_container_margin">16dp</dimen>
+  <dimen name="toolbar_margin">4dp</dimen>
+  
 
   <!---->
 </resources>

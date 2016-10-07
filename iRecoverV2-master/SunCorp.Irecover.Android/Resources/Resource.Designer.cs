@@ -3127,8 +3127,8 @@ namespace SunCorp.Irecover.Android
 			// aapt resource value: 0x7f060007
 			public const int abc_text_size_title_material_toolbar = 2131099655;
 			
-			// aapt resource value: 0x7f06006f
-			public const int activity_horizontal_margin = 2131099759;
+			// aapt resource value: 0x7f060070
+			public const int activity_horizontal_margin = 2131099760;
 			
 			// aapt resource value: 0x7f060056
 			public const int design_appbar_elevation = 2131099734;
@@ -3255,6 +3255,9 @@ namespace SunCorp.Irecover.Android
 			
 			// aapt resource value: 0x7f06004d
 			public const int notification_subtext_size = 2131099725;
+			
+			// aapt resource value: 0x7f06006f
+			public const int toolbar_margin = 2131099759;
 			
 			// aapt resource value: 0x7f06006c
 			public const int uwpworky_logo = 2131099756;
@@ -3639,8 +3642,8 @@ namespace SunCorp.Irecover.Android
 			// aapt resource value: 0x7f07002c
 			public const int bottom = 2131165228;
 			
-			// aapt resource value: 0x7f070092
-			public const int btn_back = 2131165330;
+			// aapt resource value: 0x7f070091
+			public const int btn_back = 2131165329;
 			
 			// aapt resource value: 0x7f070071
 			public const int btn_home_accident = 2131165297;
@@ -4002,8 +4005,8 @@ namespace SunCorp.Irecover.Android
 			// aapt resource value: 0x7f070070
 			public const int toolbar1 = 2131165296;
 			
-			// aapt resource value: 0x7f070091
-			public const int toolbar_title = 2131165329;
+			// aapt resource value: 0x7f070092
+			public const int toolbar_title = 2131165330;
 			
 			// aapt resource value: 0x7f070034
 			public const int top = 2131165236;
@@ -4197,100 +4200,100 @@ namespace SunCorp.Irecover.Android
 			public const int activity_rehab_management = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int activity_view_helper = 2130968616;
+			public const int activity_settings = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int activity_view_program = 2130968617;
+			public const int activity_view_helper = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int design_bottom_sheet_dialog = 2130968618;
+			public const int activity_view_program = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int design_layout_snackbar = 2130968619;
+			public const int design_bottom_sheet_dialog = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int design_layout_snackbar_include = 2130968620;
+			public const int design_layout_snackbar = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int design_layout_tab_icon = 2130968621;
+			public const int design_layout_snackbar_include = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int design_layout_tab_text = 2130968622;
+			public const int design_layout_tab_icon = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int design_menu_item_action_area = 2130968623;
+			public const int design_layout_tab_text = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int design_navigation_item = 2130968624;
+			public const int design_menu_item_action_area = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int design_navigation_item_header = 2130968625;
+			public const int design_navigation_item = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int design_navigation_item_separator = 2130968626;
+			public const int design_navigation_item_header = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int design_navigation_item_subheader = 2130968627;
+			public const int design_navigation_item_separator = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int design_navigation_menu = 2130968628;
+			public const int design_navigation_item_subheader = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int design_navigation_menu_item = 2130968629;
+			public const int design_navigation_menu = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int fragment_drawer_settings = 2130968630;
+			public const int design_navigation_menu_item = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int fragment_navigation = 2130968631;
+			public const int fragment_drawer_settings = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int fragment_navigation_header = 2130968632;
+			public const int fragment_navigation = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_media_action = 2130968633;
+			public const int fragment_navigation_header = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_media_cancel_action = 2130968634;
+			public const int notification_media_action = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_big_media = 2130968635;
+			public const int notification_media_cancel_action = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_big_media_narrow = 2130968636;
+			public const int notification_template_big_media = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int notification_template_lines = 2130968637;
+			public const int notification_template_big_media_narrow = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int notification_template_media = 2130968638;
+			public const int notification_template_lines = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int notification_template_part_chronometer = 2130968639;
+			public const int notification_template_media = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int notification_template_part_time = 2130968640;
+			public const int notification_template_part_chronometer = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int row_add_list = 2130968641;
+			public const int notification_template_part_time = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int row_claim_list = 2130968642;
+			public const int row_add_list = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int select_dialog_item_material = 2130968643;
+			public const int row_claim_list = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int select_dialog_multichoice_material = 2130968644;
+			public const int select_dialog_item_material = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int select_dialog_singlechoice_material = 2130968645;
+			public const int select_dialog_multichoice_material = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int support_simple_spinner_dropdown_item = 2130968646;
+			public const int select_dialog_singlechoice_material = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int toolbar_actionbar = 2130968647;
+			public const int support_simple_spinner_dropdown_item = 2130968647;
 			
 			// aapt resource value: 0x7f040048
 			public const int toolbar_add_list = 2130968648;
@@ -4406,44 +4409,44 @@ namespace SunCorp.Irecover.Android
 			// aapt resource value: 0x7f080012
 			public const int abc_toolbar_collapse_description = 2131230738;
 			
-			// aapt resource value: 0x7f080031
-			public const int accident_contacts = 2131230769;
-			
-			// aapt resource value: 0x7f080029
-			public const int accident_details = 2131230761;
+			// aapt resource value: 0x7f080032
+			public const int accident_contacts = 2131230770;
 			
 			// aapt resource value: 0x7f08002a
-			public const int accident_details_hint = 2131230762;
+			public const int accident_details = 2131230762;
 			
 			// aapt resource value: 0x7f08002b
-			public const int accident_notes = 2131230763;
+			public const int accident_details_hint = 2131230763;
 			
 			// aapt resource value: 0x7f08002c
-			public const int accident_notes_hint = 2131230764;
-			
-			// aapt resource value: 0x7f08002e
-			public const int accident_other_drivers = 2131230766;
-			
-			// aapt resource value: 0x7f08002f
-			public const int accident_pictures = 2131230767;
-			
-			// aapt resource value: 0x7f080027
-			public const int accident_time = 2131230759;
-			
-			// aapt resource value: 0x7f080028
-			public const int accident_time_hint = 2131230760;
-			
-			// aapt resource value: 0x7f080025
-			public const int accident_type = 2131230757;
-			
-			// aapt resource value: 0x7f080026
-			public const int accident_type_hint = 2131230758;
-			
-			// aapt resource value: 0x7f080030
-			public const int accident_voice_memos = 2131230768;
+			public const int accident_notes = 2131230764;
 			
 			// aapt resource value: 0x7f08002d
-			public const int accident_witness = 2131230765;
+			public const int accident_notes_hint = 2131230765;
+			
+			// aapt resource value: 0x7f08002f
+			public const int accident_other_drivers = 2131230767;
+			
+			// aapt resource value: 0x7f080030
+			public const int accident_pictures = 2131230768;
+			
+			// aapt resource value: 0x7f080028
+			public const int accident_time = 2131230760;
+			
+			// aapt resource value: 0x7f080029
+			public const int accident_time_hint = 2131230761;
+			
+			// aapt resource value: 0x7f080026
+			public const int accident_type = 2131230758;
+			
+			// aapt resource value: 0x7f080027
+			public const int accident_type_hint = 2131230759;
+			
+			// aapt resource value: 0x7f080031
+			public const int accident_voice_memos = 2131230769;
+			
+			// aapt resource value: 0x7f08002e
+			public const int accident_witness = 2131230766;
 			
 			// aapt resource value: 0x7f080019
 			public const int app_name = 2131230745;
@@ -4457,53 +4460,53 @@ namespace SunCorp.Irecover.Android
 			// aapt resource value: 0x7f080016
 			public const int character_counter_pattern = 2131230742;
 			
+			// aapt resource value: 0x7f080036
+			public const int claim_contact = 2131230774;
+			
 			// aapt resource value: 0x7f080035
-			public const int claim_contact = 2131230773;
+			public const int claim_history = 2131230773;
 			
 			// aapt resource value: 0x7f080034
-			public const int claim_history = 2131230772;
+			public const int claim_new = 2131230772;
+			
+			// aapt resource value: 0x7f080037
+			public const int claim_policy = 2131230775;
 			
 			// aapt resource value: 0x7f080033
-			public const int claim_new = 2131230771;
-			
-			// aapt resource value: 0x7f080036
-			public const int claim_policy = 2131230774;
-			
-			// aapt resource value: 0x7f080032
-			public const int claim_speak = 2131230770;
-			
-			// aapt resource value: 0x7f080074
-			public const int contact_claims = 2131230836;
-			
-			// aapt resource value: 0x7f080073
-			public const int contact_customer_service = 2131230835;
-			
-			// aapt resource value: 0x7f080072
-			public const int contact_disclaimer = 2131230834;
+			public const int claim_speak = 2131230771;
 			
 			// aapt resource value: 0x7f080075
-			public const int contact_problem_resolution = 2131230837;
+			public const int contact_claims = 2131230837;
 			
-			// aapt resource value: 0x7f08001c
-			public const int drawer_account = 2131230748;
+			// aapt resource value: 0x7f080074
+			public const int contact_customer_service = 2131230836;
+			
+			// aapt resource value: 0x7f080073
+			public const int contact_disclaimer = 2131230835;
+			
+			// aapt resource value: 0x7f080076
+			public const int contact_problem_resolution = 2131230838;
 			
 			// aapt resource value: 0x7f08001d
-			public const int drawer_claim = 2131230749;
+			public const int drawer_account = 2131230749;
+			
+			// aapt resource value: 0x7f08001e
+			public const int drawer_claim = 2131230750;
 			
 			// aapt resource value: 0x7f08001b
 			public const int drawer_close = 2131230747;
 			
-			// aapt resource value: 0x7f080020
-			public const int drawer_contact = 2131230752;
+			// aapt resource value: 0x7f080021
+			public const int drawer_contact = 2131230753;
 			
-			// aapt resource value: 0x7f08001e
-			public const int drawer_history = 2131230750;
+			// aapt resource value: 0x7f08001f
+			public const int drawer_history = 2131230751;
 			
 			// aapt resource value: 0x7f08001a
 			public const int drawer_open = 2131230746;
 			
-			// aapt resource value: 0x7f08001f
-			public const int drawer_settings = 2131230751;
+			// aapt resource value: 0x7f080020
+			public const int drawer_settings = 2131230752;
 			
 			// aapt resource value: 0x7f080017
 			public const int fab_scroll_shrink_grow_autohide_behavior = 2131230743;
@@ -4511,239 +4514,245 @@ namespace SunCorp.Irecover.Android
 			// aapt resource value: 0x7f080018
 			public const int fab_scroll_translation_autohide_behavior = 2131230744;
 			
-			// aapt resource value: 0x7f080023
-			public const int home_accident = 2131230755;
-			
-			// aapt resource value: 0x7f080022
-			public const int home_claims = 2131230754;
-			
-			// aapt resource value: 0x7f080021
-			public const int home_help = 2131230753;
+			// aapt resource value: 0x7f08001c
+			public const int general_save = 2131230748;
 			
 			// aapt resource value: 0x7f080024
-			public const int home_rehab = 2131230756;
+			public const int home_accident = 2131230756;
 			
-			// aapt resource value: 0x7f080084
-			public const int new_claim_btn_memos = 2131230852;
+			// aapt resource value: 0x7f080023
+			public const int home_claims = 2131230755;
 			
-			// aapt resource value: 0x7f080082
-			public const int new_claim_btn_pictures = 2131230850;
+			// aapt resource value: 0x7f080022
+			public const int home_help = 2131230754;
 			
-			// aapt resource value: 0x7f080078
-			public const int new_claim_car_registration = 2131230840;
+			// aapt resource value: 0x7f080025
+			public const int home_rehab = 2131230757;
 			
-			// aapt resource value: 0x7f080079
-			public const int new_claim_car_registration_hint = 2131230841;
+			// aapt resource value: 0x7f080085
+			public const int new_claim_btn_memos = 2131230853;
 			
 			// aapt resource value: 0x7f080083
-			public const int new_claim_memos = 2131230851;
+			public const int new_claim_btn_pictures = 2131230851;
 			
-			// aapt resource value: 0x7f080076
-			public const int new_claim_name = 2131230838;
-			
-			// aapt resource value: 0x7f080077
-			public const int new_claim_name_hint = 2131230839;
-			
-			// aapt resource value: 0x7f080080
-			public const int new_claim_other_contacts = 2131230848;
-			
-			// aapt resource value: 0x7f08007f
-			public const int new_claim_other_drivers = 2131230847;
-			
-			// aapt resource value: 0x7f080081
-			public const int new_claim_pictures = 2131230849;
-			
-			// aapt resource value: 0x7f08007c
-			public const int new_claim_time = 2131230844;
-			
-			// aapt resource value: 0x7f08007d
-			public const int new_claim_time_hint = 2131230845;
+			// aapt resource value: 0x7f080079
+			public const int new_claim_car_registration = 2131230841;
 			
 			// aapt resource value: 0x7f08007a
-			public const int new_claim_type = 2131230842;
+			public const int new_claim_car_registration_hint = 2131230842;
 			
-			// aapt resource value: 0x7f08007b
-			public const int new_claim_type_hint = 2131230843;
+			// aapt resource value: 0x7f080084
+			public const int new_claim_memos = 2131230852;
+			
+			// aapt resource value: 0x7f080077
+			public const int new_claim_name = 2131230839;
+			
+			// aapt resource value: 0x7f080078
+			public const int new_claim_name_hint = 2131230840;
+			
+			// aapt resource value: 0x7f080081
+			public const int new_claim_other_contacts = 2131230849;
+			
+			// aapt resource value: 0x7f080080
+			public const int new_claim_other_drivers = 2131230848;
+			
+			// aapt resource value: 0x7f080082
+			public const int new_claim_pictures = 2131230850;
+			
+			// aapt resource value: 0x7f08007d
+			public const int new_claim_time = 2131230845;
 			
 			// aapt resource value: 0x7f08007e
-			public const int new_claim_witnesses = 2131230846;
+			public const int new_claim_time_hint = 2131230846;
 			
-			// aapt resource value: 0x7f080053
-			public const int new_contact_car_additional_information = 2131230803;
+			// aapt resource value: 0x7f08007b
+			public const int new_claim_type = 2131230843;
+			
+			// aapt resource value: 0x7f08007c
+			public const int new_claim_type_hint = 2131230844;
+			
+			// aapt resource value: 0x7f08007f
+			public const int new_claim_witnesses = 2131230847;
 			
 			// aapt resource value: 0x7f080054
-			public const int new_contact_car_additional_information_hint = 2131230804;
-			
-			// aapt resource value: 0x7f080051
-			public const int new_contact_car_contact = 2131230801;
-			
-			// aapt resource value: 0x7f080052
-			public const int new_contact_car_contact_hint = 2131230802;
-			
-			// aapt resource value: 0x7f08004f
-			public const int new_contact_car_registration = 2131230799;
-			
-			// aapt resource value: 0x7f080050
-			public const int new_contact_car_registration_hint = 2131230800;
-			
-			// aapt resource value: 0x7f08004d
-			public const int new_contact_name = 2131230797;
-			
-			// aapt resource value: 0x7f08004e
-			public const int new_contact_name_hint = 2131230798;
-			
-			// aapt resource value: 0x7f08006a
-			public const int new_helper_additional_information = 2131230826;
-			
-			// aapt resource value: 0x7f08006b
-			public const int new_helper_additional_information_hint = 2131230827;
-			
-			// aapt resource value: 0x7f080068
-			public const int new_helper_contact = 2131230824;
-			
-			// aapt resource value: 0x7f080069
-			public const int new_helper_contact_hint = 2131230825;
-			
-			// aapt resource value: 0x7f080066
-			public const int new_helper_name = 2131230822;
-			
-			// aapt resource value: 0x7f080067
-			public const int new_helper_name_hint = 2131230823;
-			
-			// aapt resource value: 0x7f080045
-			public const int new_other_driver_car_additional_information = 2131230789;
-			
-			// aapt resource value: 0x7f080046
-			public const int new_other_driver_car_additional_information_hint = 2131230790;
-			
-			// aapt resource value: 0x7f080043
-			public const int new_other_driver_car_contact = 2131230787;
-			
-			// aapt resource value: 0x7f080044
-			public const int new_other_driver_car_contact_hint = 2131230788;
-			
-			// aapt resource value: 0x7f080041
-			public const int new_other_driver_car_registration = 2131230785;
-			
-			// aapt resource value: 0x7f080042
-			public const int new_other_driver_car_registration_hint = 2131230786;
-			
-			// aapt resource value: 0x7f08003f
-			public const int new_other_driver_name = 2131230783;
-			
-			// aapt resource value: 0x7f080040
-			public const int new_other_driver_name_hint = 2131230784;
-			
-			// aapt resource value: 0x7f08004b
-			public const int new_picture_add = 2131230795;
-			
-			// aapt resource value: 0x7f08004a
-			public const int new_picture_name = 2131230794;
-			
-			// aapt resource value: 0x7f08004c
-			public const int new_picture_name_hint = 2131230796;
-			
-			// aapt resource value: 0x7f080070
-			public const int new_program_additional_information = 2131230832;
-			
-			// aapt resource value: 0x7f080071
-			public const int new_program_additional_information_hint = 2131230833;
-			
-			// aapt resource value: 0x7f08006e
-			public const int new_program_contact = 2131230830;
-			
-			// aapt resource value: 0x7f08006f
-			public const int new_program_contact_hint = 2131230831;
-			
-			// aapt resource value: 0x7f08006c
-			public const int new_program_name = 2131230828;
-			
-			// aapt resource value: 0x7f08006d
-			public const int new_program_name_hint = 2131230829;
-			
-			// aapt resource value: 0x7f080048
-			public const int new_voice_memo_add = 2131230792;
-			
-			// aapt resource value: 0x7f080047
-			public const int new_voice_memo_name = 2131230791;
-			
-			// aapt resource value: 0x7f080049
-			public const int new_voice_memo_name_hint = 2131230793;
-			
-			// aapt resource value: 0x7f08003d
-			public const int new_witness_car_additional_information = 2131230781;
-			
-			// aapt resource value: 0x7f08003e
-			public const int new_witness_car_additional_information_hint = 2131230782;
-			
-			// aapt resource value: 0x7f08003b
-			public const int new_witness_car_contact = 2131230779;
-			
-			// aapt resource value: 0x7f08003c
-			public const int new_witness_car_contact_hint = 2131230780;
-			
-			// aapt resource value: 0x7f080039
-			public const int new_witness_car_registration = 2131230777;
-			
-			// aapt resource value: 0x7f08003a
-			public const int new_witness_car_registration_hint = 2131230778;
-			
-			// aapt resource value: 0x7f080037
-			public const int new_witness_name = 2131230775;
-			
-			// aapt resource value: 0x7f080038
-			public const int new_witness_name_hint = 2131230776;
-			
-			// aapt resource value: 0x7f08005f
-			public const int profile_address = 2131230815;
-			
-			// aapt resource value: 0x7f080060
-			public const int profile_address_hint = 2131230816;
-			
-			// aapt resource value: 0x7f08005b
-			public const int profile_age = 2131230811;
-			
-			// aapt resource value: 0x7f08005c
-			public const int profile_age_hint = 2131230812;
-			
-			// aapt resource value: 0x7f080059
-			public const int profile_car_contact = 2131230809;
-			
-			// aapt resource value: 0x7f08005a
-			public const int profile_car_contact_hint = 2131230810;
-			
-			// aapt resource value: 0x7f080057
-			public const int profile_car_registration = 2131230807;
-			
-			// aapt resource value: 0x7f080058
-			public const int profile_car_registration_hint = 2131230808;
+			public const int new_contact_car_additional_information = 2131230804;
 			
 			// aapt resource value: 0x7f080055
-			public const int profile_name = 2131230805;
+			public const int new_contact_car_additional_information_hint = 2131230805;
 			
-			// aapt resource value: 0x7f080056
-			public const int profile_name_hint = 2131230806;
+			// aapt resource value: 0x7f080052
+			public const int new_contact_car_contact = 2131230802;
+			
+			// aapt resource value: 0x7f080053
+			public const int new_contact_car_contact_hint = 2131230803;
+			
+			// aapt resource value: 0x7f080050
+			public const int new_contact_car_registration = 2131230800;
+			
+			// aapt resource value: 0x7f080051
+			public const int new_contact_car_registration_hint = 2131230801;
+			
+			// aapt resource value: 0x7f08004e
+			public const int new_contact_name = 2131230798;
+			
+			// aapt resource value: 0x7f08004f
+			public const int new_contact_name_hint = 2131230799;
+			
+			// aapt resource value: 0x7f08006b
+			public const int new_helper_additional_information = 2131230827;
+			
+			// aapt resource value: 0x7f08006c
+			public const int new_helper_additional_information_hint = 2131230828;
+			
+			// aapt resource value: 0x7f080069
+			public const int new_helper_contact = 2131230825;
+			
+			// aapt resource value: 0x7f08006a
+			public const int new_helper_contact_hint = 2131230826;
+			
+			// aapt resource value: 0x7f080067
+			public const int new_helper_name = 2131230823;
+			
+			// aapt resource value: 0x7f080068
+			public const int new_helper_name_hint = 2131230824;
+			
+			// aapt resource value: 0x7f080046
+			public const int new_other_driver_car_additional_information = 2131230790;
+			
+			// aapt resource value: 0x7f080047
+			public const int new_other_driver_car_additional_information_hint = 2131230791;
+			
+			// aapt resource value: 0x7f080044
+			public const int new_other_driver_car_contact = 2131230788;
+			
+			// aapt resource value: 0x7f080045
+			public const int new_other_driver_car_contact_hint = 2131230789;
+			
+			// aapt resource value: 0x7f080042
+			public const int new_other_driver_car_registration = 2131230786;
+			
+			// aapt resource value: 0x7f080043
+			public const int new_other_driver_car_registration_hint = 2131230787;
+			
+			// aapt resource value: 0x7f080040
+			public const int new_other_driver_name = 2131230784;
+			
+			// aapt resource value: 0x7f080041
+			public const int new_other_driver_name_hint = 2131230785;
+			
+			// aapt resource value: 0x7f08004c
+			public const int new_picture_add = 2131230796;
+			
+			// aapt resource value: 0x7f08004b
+			public const int new_picture_name = 2131230795;
+			
+			// aapt resource value: 0x7f08004d
+			public const int new_picture_name_hint = 2131230797;
+			
+			// aapt resource value: 0x7f080071
+			public const int new_program_additional_information = 2131230833;
+			
+			// aapt resource value: 0x7f080072
+			public const int new_program_additional_information_hint = 2131230834;
+			
+			// aapt resource value: 0x7f08006f
+			public const int new_program_contact = 2131230831;
+			
+			// aapt resource value: 0x7f080070
+			public const int new_program_contact_hint = 2131230832;
+			
+			// aapt resource value: 0x7f08006d
+			public const int new_program_name = 2131230829;
+			
+			// aapt resource value: 0x7f08006e
+			public const int new_program_name_hint = 2131230830;
+			
+			// aapt resource value: 0x7f080049
+			public const int new_voice_memo_add = 2131230793;
+			
+			// aapt resource value: 0x7f080048
+			public const int new_voice_memo_name = 2131230792;
+			
+			// aapt resource value: 0x7f08004a
+			public const int new_voice_memo_name_hint = 2131230794;
+			
+			// aapt resource value: 0x7f08003e
+			public const int new_witness_car_additional_information = 2131230782;
+			
+			// aapt resource value: 0x7f08003f
+			public const int new_witness_car_additional_information_hint = 2131230783;
+			
+			// aapt resource value: 0x7f08003c
+			public const int new_witness_car_contact = 2131230780;
+			
+			// aapt resource value: 0x7f08003d
+			public const int new_witness_car_contact_hint = 2131230781;
+			
+			// aapt resource value: 0x7f08003a
+			public const int new_witness_car_registration = 2131230778;
+			
+			// aapt resource value: 0x7f08003b
+			public const int new_witness_car_registration_hint = 2131230779;
+			
+			// aapt resource value: 0x7f080038
+			public const int new_witness_name = 2131230776;
+			
+			// aapt resource value: 0x7f080039
+			public const int new_witness_name_hint = 2131230777;
+			
+			// aapt resource value: 0x7f080060
+			public const int profile_address = 2131230816;
 			
 			// aapt resource value: 0x7f080061
-			public const int profile_policy_number = 2131230817;
+			public const int profile_address_hint = 2131230817;
 			
-			// aapt resource value: 0x7f080062
-			public const int profile_policy_number_hint = 2131230818;
+			// aapt resource value: 0x7f08005c
+			public const int profile_age = 2131230812;
 			
 			// aapt resource value: 0x7f08005d
-			public const int profile_sex = 2131230813;
+			public const int profile_age_hint = 2131230813;
 			
-			// aapt resource value: 0x7f08005e
-			public const int profile_sex_hint = 2131230814;
+			// aapt resource value: 0x7f08005a
+			public const int profile_car_contact = 2131230810;
 			
-			// aapt resource value: 0x7f080064
-			public const int rehab_helpers = 2131230820;
+			// aapt resource value: 0x7f08005b
+			public const int profile_car_contact_hint = 2131230811;
 			
-			// aapt resource value: 0x7f080065
-			public const int rehab_programs = 2131230821;
+			// aapt resource value: 0x7f080058
+			public const int profile_car_registration = 2131230808;
+			
+			// aapt resource value: 0x7f080059
+			public const int profile_car_registration_hint = 2131230809;
+			
+			// aapt resource value: 0x7f080056
+			public const int profile_name = 2131230806;
+			
+			// aapt resource value: 0x7f080057
+			public const int profile_name_hint = 2131230807;
+			
+			// aapt resource value: 0x7f080062
+			public const int profile_policy_number = 2131230818;
 			
 			// aapt resource value: 0x7f080063
-			public const int rehab_speak = 2131230819;
+			public const int profile_policy_number_hint = 2131230819;
+			
+			// aapt resource value: 0x7f08005e
+			public const int profile_sex = 2131230814;
+			
+			// aapt resource value: 0x7f08005f
+			public const int profile_sex_hint = 2131230815;
+			
+			// aapt resource value: 0x7f080065
+			public const int rehab_helpers = 2131230821;
+			
+			// aapt resource value: 0x7f080066
+			public const int rehab_programs = 2131230822;
+			
+			// aapt resource value: 0x7f080064
+			public const int rehab_speak = 2131230820;
+			
+			// aapt resource value: 0x7f080086
+			public const int settings_notifications = 2131230854;
 			
 			// aapt resource value: 0x7f080013
 			public const int status_bar_notification_info_overflow = 2131230739;

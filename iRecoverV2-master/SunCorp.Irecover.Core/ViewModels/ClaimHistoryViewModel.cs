@@ -18,12 +18,13 @@ namespace SunCorp.IRecover.ViewModels
             Items = new ObservableCollection<ClaimModel>();
 
             var random = new Random();
-            for (var i = 0; i < 5; i++)
+            for (var i = 5; i >=1; i--)
             {
                 Items.Add(new ClaimModel()
                 {
                     Name = $"Claim {i}",
-                    IsResolved = random.Next(20000)%2 == 1
+                    IsResolved = random.Next(20000)%2 == 1, 
+                    Date = DateTime.Now.AddDays(-5+i)
                 });
             }
         }

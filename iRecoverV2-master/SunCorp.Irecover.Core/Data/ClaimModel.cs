@@ -1,4 +1,5 @@
-﻿using MvvmCross.Core.ViewModels;
+﻿using System;
+using MvvmCross.Core.ViewModels;
 
 namespace SunCorp.IRecover.Data
 {
@@ -6,6 +7,7 @@ namespace SunCorp.IRecover.Data
     {
         private string mName;
         private bool mIsResolved;
+        public DateTime Date;
 
         public string Name
         {
@@ -25,5 +27,7 @@ namespace SunCorp.IRecover.Data
                 RaisePropertyChanged(() => IsResolved);
             }
         }
+
+        public string DateFormatted => $"{Date.Day}/{Date.Month}/{Date.Year}";
     }
 }

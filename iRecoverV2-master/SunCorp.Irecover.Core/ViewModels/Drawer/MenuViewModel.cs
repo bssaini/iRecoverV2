@@ -38,6 +38,17 @@ namespace SunCorp.IRecover.ViewModels.Drawer
         {
             ShowViewModel<ContactUsViewModel>();
         }
+
+        public void GoToClaimHistory()
+        {
+            ShowViewModel<ClaimHistoryViewModel>();
+        }
+
+        public void GoToSettings()
+        {
+            ShowViewModel<SettingsViewModel>();
+        }
+
         #endregion
 
         #region private methods

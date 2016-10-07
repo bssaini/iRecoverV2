@@ -161,6 +161,18 @@
                 android:drawableEnd="@drawable/ic_chevron_right"
                 android:layout_marginBottom="20dp"
                 local:MvxBind="Click GotoAddContactCommand" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="@dimen/view_container_margin"
+                android:layout_marginEnd="@dimen/view_container_margin"
+                android:text="@string/general_save"
+                android:textColor="@android:color/white"
+                local:MvxBind="Click SaveCommand" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -34,9 +34,17 @@ namespace SunCorp.Irecover.Android.UI.Activities
             toolbarTitle.Text="Claim management";
 
             ViewModel.SetOnSpeakToARepresentativeAction(SpeakToARepresentativeAction);
+            ViewModel.SetOnContactManagerAction(ContactManagerAction);
         }
 
         private void SpeakToARepresentativeAction()
+        {
+            var intent = new Intent(Intent.ActionDial);
+            intent.SetData(Uri.Parse("tel:0123456789"));
+            StartActivity(intent);
+        }
+
+        private void ContactManagerAction()
         {
             var intent = new Intent(Intent.ActionDial);
             intent.SetData(Uri.Parse("tel:0123456789"));

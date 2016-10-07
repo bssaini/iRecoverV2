@@ -3,11 +3,8 @@
 namespace SunCorp.IRecover.ViewModels.Drawer
 {
     public class SettingsViewModel
-        : MvxViewModel
+        : BaseViewModel
     {
-
-        public SettingsViewModel()
-        {
-        }
+        
     }
 }

@@ -14,7 +14,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
@@ -186,6 +186,7 @@
     <Compile Include="Setup.cs" />
     <Compile Include="UI\Activities\ClaimHistoryActivity.cs" />
     <Compile Include="UI\Activities\ContactUsActivity.cs" />
+    <Compile Include="UI\Activities\SettingsActivity.cs" />
     <Compile Include="UI\Activities\RehabManagementActivity.cs" />
     <Compile Include="UI\Activities\ProfileActivity.cs" />
     <Compile Include="UI\Activities\NewClaimActivity.cs" />
@@ -210,7 +211,6 @@
     <Compile Include="UI\Fragments\Drawer\BaseFragment.cs" />
     <Compile Include="UI\Fragments\Drawer\HomeFragment.cs" />
     <Compile Include="UI\Fragments\Drawer\MenuFragment.cs" />
-    <Compile Include="UI\Fragments\Drawer\SettingsFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -233,9 +233,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\menu\navigation_drawer.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\toolbar_actionbar.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\activity_main.axml">
@@ -496,7 +493,9 @@
     <AndroidResource Include="Resources\layout\activity_new_other_driver.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_new_voice_memo.xml" />
+    <AndroidResource Include="Resources\layout\activity_new_voice_memo.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_new_picture.xml" />
@@ -529,7 +528,9 @@
     <AndroidResource Include="Resources\drawable-mdpi\background_rehab.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_view_helper.xml" />
+    <AndroidResource Include="Resources\layout\activity_view_helper.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_view_program.xml" />
@@ -571,6 +572,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_claim_resolved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_settings.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

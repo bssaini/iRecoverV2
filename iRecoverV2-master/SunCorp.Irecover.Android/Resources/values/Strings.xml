@@ -3,7 +3,9 @@
 
   <string name="drawer_open">drawer_open</string>
   <string name="drawer_close">drawer_close</string>
-  
+
+  <string name="general_save">Save</string>
+
   <!--drawer-->
   <string name="drawer_account">My Account</string>
   <string name="drawer_claim">New Claim</string>
@@ -13,7 +15,6 @@
   <!--end drawer-->
 
  <!--home screen-->
-  <string name="app_name">IRecover</string>
   <string name="home_help">Help Guides</string>
   <string name="home_claims">Claim Management</string>
   <string name="home_accident">I\'ve just had an accident</string>
@@ -154,4 +155,8 @@
   <string name="new_claim_memos">Voice memos</string>
   <string name="new_claim_btn_memos">View voice memos</string>
   <!--end new claim-->
+
+  <!--settings-->
+  <string name="settings_notifications">Notifications</string>
+  <!--end settings-->
 </resources>

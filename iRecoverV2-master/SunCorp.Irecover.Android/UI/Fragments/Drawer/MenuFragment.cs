@@ -91,6 +91,18 @@ namespace SunCorp.Irecover.Android.UI.Fragments.Drawer
                         ViewModel.GoToContactUs();
                     }, NAVIGATION_DELAY);
                     break;
+                case Resource.Id.nav_history:
+                    new Handler(Looper.MainLooper).PostDelayed(() =>
+                    {
+                        ViewModel.GoToClaimHistory();
+                    }, NAVIGATION_DELAY);
+                    break;
+                case Resource.Id.nav_settings:
+                    new Handler(Looper.MainLooper).PostDelayed(() =>
+                    {
+                        ViewModel.GoToSettings();
+                    }, NAVIGATION_DELAY);
+                    break;
             }
         }
         

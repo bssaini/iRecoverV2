@@ -9,7 +9,9 @@ namespace SunCorp.IRecover.ViewModels
         private ICommand mGotoNewClaimCommand;
         private ICommand mGotoClaimHistoryCommand;
         private ICommand mSpeakToARepresentativeCommand;
+        private ICommand mContactClaimManagerCommand;
         private Action mSpeakToARepresentativeAction;
+        private Action mContactClaimManagerAction;
 
         public ICommand GotoNewClaimCommand
         {
@@ -35,6 +37,15 @@ namespace SunCorp.IRecover.ViewModels
             {
                 mSpeakToARepresentativeCommand = mSpeakToARepresentativeCommand ?? new MvxCommand(SpeakToARepresentativeAction);
                 return mSpeakToARepresentativeCommand;
+            }
+        }
+
+        public ICommand ContactClaimManagerCommand
+        {
+            get
+            {
+                mContactClaimManagerCommand = mContactClaimManagerCommand ?? new MvxCommand(ContactClaimManagerAction);
+                return mContactClaimManagerCommand;
             }
         }
 
@@ -64,6 +75,21 @@ namespace SunCorp.IRecover.ViewModels
         {
             ShowViewModel<ClaimHistoryViewModel>();
         }
+
+        private void ContactClaimManagerAction()
+        {
+            if (mContactClaimManagerAction == null)
+            {
+                throw new Exception($"The activity must implement{mContactClaimManagerAction}");
+
+            }
+            mContactClaimManagerAction();
+        }
         #endregion
+
+        public void SetOnContactManagerAction(Action contactManagerAction)
+        {
+            mContactClaimManagerAction = contactManagerAction;
+        }
     }
 }
