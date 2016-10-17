@@ -178,6 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application\IRecoverApplication.cs" />
+    <Compile Include="Bootstrap\PictureChooserPluginBootstrap.cs" />
     <Compile Include="Bootstrap\VisibilityPluginBootstrap.cs" />
     <Compile Include="Interfaces\INavigationActivity.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
@@ -208,6 +209,7 @@
     <Compile Include="UI\Activities\Rehab\ViewHelperActivity.cs" />
     <Compile Include="UI\Activities\Rehab\MyHelpersActivity.cs" />
     <Compile Include="UI\Activities\SplashActivity.cs" />
+    <Compile Include="UI\Dialogs\MediaChooserDialog.cs" />
     <Compile Include="UI\Fragments\Drawer\BaseFragment.cs" />
     <Compile Include="UI\Fragments\Drawer\HomeFragment.cs" />
     <Compile Include="UI\Fragments\Drawer\MenuFragment.cs" />
@@ -251,6 +253,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\activity_claim_list.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\dialog_video_picture_chooser.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -498,7 +503,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_new_picture.xml" />
+    <AndroidResource Include="Resources\layout\activity_new_picture.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_new_contact.xml" />

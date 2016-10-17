@@ -8,7 +8,6 @@
     <include
         layout="@layout/toolbar_new_item"/>
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -37,6 +36,14 @@
                 android:textColorHint="@color/hint_color"
                 android:layout_marginStart="@dimen/view_container_margin"
                 android:layout_marginEnd="@dimen/view_container_margin" />
+          
+          <ImageView 
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginStart="@dimen/view_container_margin"
+                android:layout_marginEnd="@dimen/view_container_margin"
+                android:layout_marginTop="8dp"
+                local:MvxBind="Bitmap PictureBytes,Converter=InMemoryImage;Visibility Visibility(WasPictureChosen)" />
 
             <Button
                 android:layout_width="match_parent"
@@ -45,7 +52,8 @@
                 android:textColor="@android:color/white"
                 android:text="@string/new_picture_add"
                 android:layout_margin="16dp"
-                android:id="@+id/button" />
+                android:id="@+id/button"
+                local:MvxBind="Click AddPicture"/>
 
           <Button
               android:layout_width="match_parent"
@@ -57,11 +65,9 @@
               android:layout_marginStart="@dimen/view_container_margin"
               android:layout_marginEnd="@dimen/view_container_margin"
               android:text="@string/general_save"
-                android:textColor="@android:color/white"
+              android:textColor="@android:color/white"
               local:MvxBind="Click SaveCommand"/>
 
         </LinearLayout>
-
     </ScrollView>
-
 </LinearLayout>
